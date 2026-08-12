@@ -1,6 +1,6 @@
-a = 10
-b = 20
-temp = a
-a = b
-b = temp
-print("After swapping: a =", a, "b =", b)
+a = int(input("Enter a number1:"))
+if a % 2==0:
+    print("The number is even")
+else:
+    print("The number is odd")
+       
