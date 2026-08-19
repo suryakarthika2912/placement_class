@@ -1,9 +1,5 @@
-a = int(input("Enter a number1: "))
-b = int(input("Enter a number2: "))
-c = int(input("Enter a number3: "))
-if a>b and a>c:
-    print("a is the largest number")
-elif b>a and b>c:
-    print("b is the largest number")
+year = int(input("Enter a year: "))
+if (year % 4 == 0 and year % 100 != 0):
+    print("The year", year, "is a leap year")
 else:
-    print("c is the largest number")        
+    print("The year", year, "is not a leap year")    
