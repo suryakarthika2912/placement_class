@@ -1,5 +1,6 @@
-num = int(input("Enter a number:"))
-if num %5 == 0 and num % 11 == 0:
-    print(f"{num} is divisible by both 5 and 11.")
+num = int(input("Enter a year:"))
+if num % 400 == 0:
+    print(f"{num} is a leap year.")
 else:
-    print("f{num} is not divisible by both 5 and 11.")    
+    print(f"2020
+          {num} is not a leap year.")   
