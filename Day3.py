@@ -1,12 +1,5 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
-
-if a <= b and a <= c:
-    smallest = a
-elif b <= a and b <= c:
-    smallest = b
+num = int(input("Enter a number:"))
+if num %5 == 0 and num % 11 == 0:
+    print(f"{num} is divisible by both 5 and 11.")
 else:
-    smallest = c
-
-print("Smallest number is:", smallest)
+    print("f{num} is not divisible by both 5 and 11.")    
