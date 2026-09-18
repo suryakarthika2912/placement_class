@@ -4,3 +4,4 @@ for i in range(len(nums)):
     if nums[i] == n:
         print(f"First occurrence of {n} is at index {i}")
         break
+    
